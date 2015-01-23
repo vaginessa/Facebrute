@@ -96,7 +96,7 @@ class Facebrute(QtGui.QMainWindow):
         if self.passwords:
             self.crackFacebookAccount()
         else:
-            self.alert("Please seleci the wordlist first")
+            self.alert("Please select the wordlist first")
 
     def alert(self,  message):
         alert = QtGui.QMessageBox()
